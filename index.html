@@ -11,68 +11,145 @@
     <meta property="og:title" content="Corso tree finazianto da Manpower" />
     <meta property="og:description" content="Descrizione delle caratteristiche personali di uno studente." />
     <meta property="og:url" content="https://emanuelevizzarro.github.io/manu1993.github.io/" />
+    <link rel="stylesheet" href="/style.css" type="text/css" />
     <title>Corso tree</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 </head>
 
 <body>
-    <h1>Presentazione</h1>
-    <img src="/assets/img/image.jpg" alt="immagine personale" width="500" height="500" />
-    <p>
-        Mi chiamo Biagio Vizzarro e sono uno studente front-end developer <br /> del corso tree finanziato da Manpower.
-    </p>
-    <a href="https://it.linkedin.com/" src="Linkedin link" target="_blank">Linkedin link</a>
-    <a href="#theList" title="Link list">Link to list</a>
-    <h2>Esperienze formative</h2>
-    <ol>
-        <li>Diploma di scuola superiore in ragioneria</li>
-        <li>Laurea triennale in economia aziendale</li>
-        <li>Laurea specialistica in Scienze Economiche</li>
-        <li>Master in gestione e attività d'impresa</li>
-    </ol>
-    <h3>Esperienze lavorative</h3>
-    <table id="theList">
-        <thead>
-            <tr>
-                <th>Esperienza</th>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <div class="navbar-name">
+                    <h3>Biagio Emanuele Vizzarro</h3>
+                </div>
 
-                <th>Da</th>
-                <th>A</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>Cameriere</th>
-                <td>2012</td>
-                <td>2015</td>
-                <tr>
-                    <th>Impegato di ufficio</th>
-                    <td>2016</td>
-                    <td>2018</td>
-                </tr>
-                <tr>
-                    <th>Responsabile di un negozio</th>
-                    <td>2018</td>
-                    <td>2021</td>
-                </tr>
-        </tbody>
-        <tfoot>
-            <th>Colonna 1</th>
-            <td>Colonna 2</td>
-            <td>Colonna 3</td>
-        </tfoot>
-    </table>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="/Projects/index.html ">Progetti</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-item nav-link" href="/Contatti/index.html "
+                  >Contatti</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-item nav-link" href="/History/index.html "
+                  >La mia storia</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <form>
-        <h2>Contattami adesso
-            <td-data-table</h2>
-                <h3>Richiedi un progetto gratutito. Non ti prendi nessun impegno <br/> e puoi avere una idea dei costi e dei tempi di realizzazione del tuo sito.</h3>
-                <input name="text" required type="text" placeholder="Inserisci qui il tuo nome" /> <br/>
-                <input name="email" required type="email" placeholder="email"> <br/>
-                <input name="number" required type="tel" placeholder="numero di telefono"> <br/>
-                <h4>Presentati</h4>
-                <textarea name="description"></textarea> <br/>
-                <button type="submit">Invia</button>
-    </form>
+    </header>
+
+    <div class="container">
+        <section class="picture">
+            <img src="/assets/img/image.jpg " alt="immagine personale " width="500 " height="500 " style="border-radius: 50%" />
+        </section>
+        <div class="post-wrapper">
+            <section class="post">
+                <p>
+                    Mi chiamo Biagio Vizzarro e sono uno studente front-end developer
+                    <br /> del corso tree finanziato da Manpower.
+                </p>
+            </section>
+            <section class="link">
+                <a href="https://it.linkedin.com/ " src="Linkedin link " target="_blank " class="bi bi-linkedin">Linkedin</a
+          >
+        </section>
+      </div>
+    </div>
+    <div class="container-title">
+    <h3>Esperienze formative:</h3>
+</div>
+    <div class="container-wrap">
+      <div class="card text-white bg-primary mb-3" style="max-width: 18rem">
+        <div class="card-header">2019:</div>
+        <div class="card-body">
+          <p class="card-text">
+           Certificazione europea ECDL di 7 moduli.
+          </p>
+        </div>
+      </div>
+      <div class="card text-white bg-secondary mb-3" style="max-width: 18rem">
+        <div class="card-header">2018: </div>
+        <div class="card-body">
+          <p class="card-text">
+            Laurea triennale in economia aziendale con la votazione di 100/110.
+          </p>
+        </div>
+      </div>
+      <div class="card text-white bg-success mb-3" style="max-width: 18rem">
+        <div class="card-header">2020:</div>
+        <div class="card-body">
+          <p class="card-text">
+            Laurea magistrale in Scienze Economiche con la votazione di 110 e lode/110.
+          </p>
+        </div>
+      </div>
+      <div class="card text-white bg-danger mb-3" style="max-width: 18rem">
+        <div class="card-header">2021:</div>
+        <div class="card-body">
+          <p class="card-text">
+            Master di II livello in economia e gestione delle imprese.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="request" class="container">
+        <h3>Contattami per qualsiasi informazione:</h3>
+        <br>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="nome" class="form-label">Nome:</label>
+              <input type="text" class="form-control" id="nome">
+            </div>
+            <div class="col-md-6">
+                <label for="cognome" class="form-label">Cognome:</label>
+                <input type="text" class="form-control" id="cognome">
+              </div>
+            <div class="col-md-6">
+              <label for="azienda" class="form-label">Azienda:</label>
+              <input type="text" class="form-control" id="azienda">
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+            <div class="col-12">
+              <label for="note" class="form-label">Dimmi qualcosa di te:</label>
+              <textarea type="text" class="form-control" id="note" style="height:10em;"></textarea>
+            </div>
+            <div class="col-12" style="text-align: center;">
+                <button class="btn btn-dark" type="submit">Invio</button>
+            </div>
+          </form>
+    </div>
+    <footer class="bg-primary text-center text-white">
+        <div class="container p-1 pb-0">
+        <section class="mb-4">
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://github.com/emanuelevizzarro/emanuelevizzarro.github.io" role="button" target="_blank">
+                <img src="https://img.icons8.com/fluency/48/000000/github.png"/>
+            </a>
+                            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/emanuele.vizzarro" role="button" target="_blank">
+                                <img src="https://img.icons8.com/fluency/48/000000/facebook.png" />
+                            </a>
+                </div>
+
+                <div class="text-center p-3" style="background-color: #0000ff;">
+                    <p class="copyright">© Copyright: Design and Developed by <a href="ìhttps://github.com/emanuelevizzarro/emanuelevizzarro.github.io">Biagio Emanuele Vizzarro</a>.</p>
+                </div>
+                </footer>
+
 </body>
 
 </html>
